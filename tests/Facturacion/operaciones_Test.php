@@ -2,7 +2,7 @@
 declare (strict_types=1);
 use PHPUnit\Framework\TestCase;
 
-class Operaciones extends TestCase {
+class operaciones_Test extends TestCase {
     public function testFactorial():void{
         $this->assertEquals(30,50);
     }
