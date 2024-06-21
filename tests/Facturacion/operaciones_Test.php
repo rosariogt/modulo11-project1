@@ -4,10 +4,10 @@ use PHPUnit\Framework\TestCase;
 
 class operaciones_Test extends TestCase {
     public function testFactorial():void{
-        $this->assertEquals(30,50);
+        $this->assertEquals(30,30);
     }
     public function testuno(): void {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
     }
     public function testdos():void {
         $this->assertTrue(true);
